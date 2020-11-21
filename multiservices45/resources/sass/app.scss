@@ -1,0 +1,55 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-image{
+    max-width: 100px;
+    max-height: 100px;
+    height: auto;
+    padding: 0;
+}
+
+/* html,body,header,.view{
+  height: 100%;
+  font-family: 'josefin sans', sans-serif;
+  scroll-behavior: smooth;
+}
+  
+.top-nav-collapse{
+  background-color: indigo;  
+  background: linear-gradient(to right top, blue, green);
+  transition-property: all;
+  transition-duration: .5s;
+  transition-timing-function: ease-in;
+  transition-delay: 1s;
+}
+  
+.view{
+  background: url('storage/common-images/1.jpeg');
+  background-size: cover;
+} */
+
+html,body,header,.view{
+  height: 100%; 
+  font-family: 'josefin sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.top-nav-collapse{
+  background-color: indigo;  
+  background: linear-gradient(to right top, rgb(0, 67, 71), rgb(0, 81, 255));
+  transition-property: all;
+  transition-duration: .5s;
+  transition-timing-function: ease-in;
+  transition-delay: 1s;
+}
+
+.view{
+  background: url('storage/common-images/1.jpeg') no-repeat center;
+  background-size: cover;
+}
